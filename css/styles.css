@@ -156,6 +156,12 @@ address {
   text-align: center;
 }
 
+.hero-title {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 496px;
+}
+
 .hero {
   padding: 188px 0;
   background-color: #2e2f42;
@@ -199,7 +205,7 @@ address {
 }
 
 .features-list-item {
-  width: calc((100% - 24px) / 4);
+  width: calc((100% - 72px) / 4);
 }
 
 .features-list-sub-item {
@@ -257,12 +263,8 @@ address {
   border-right: 1px solid #e7e9fc;
 }
 
-.footer-container {
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-
 .footer {
+  padding: 100px 0;
   background-color: #2e2f42;
 }
 
